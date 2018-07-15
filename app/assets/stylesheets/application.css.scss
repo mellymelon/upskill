@@ -36,3 +36,21 @@ h1, h2, h3{
 .navbar{
     border: none;
 }
+
+.navbar-default .navbar-brand{
+    color: black;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: black;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav li a{
+    color: black;
+}
+
+.navbar-default .navbar-nav li a{
+    color: black;
+    opacity: 0.75;
+}
