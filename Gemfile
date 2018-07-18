@@ -63,7 +63,7 @@ end
 
 group :production do
   # Use the PostgreSQL gem for heroku production servers
-  gem 'pg','0.18.4'
+  gem 'pg', '0.18.4'
 end
 
 group :test do
@@ -76,4 +76,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby '2.4.1'
