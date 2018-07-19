@@ -63,7 +63,7 @@ end
 
 group :production do
   # Use the PostgreSQL gem for heroku production servers
-  gem 'pg', '0.18.4'
+  gem 'pg', '~> 0.20.0'
 end
 
 group :test do
